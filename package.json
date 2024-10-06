@@ -1,5 +1,5 @@
 {
-  "name": "demo-server",
+  "name": "employee-tracker-app",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -9,12 +9,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This is a command line application to manage a company's employee database, using Node.js, Inquirer, and PostgreSQL.",
   "dependencies": {
     "express": "^4.21.0",
+    "inquirer": "^8.2.4",
     "pg": "^8.13.0"
   },
   "devDependencies": {
+    "@types/pg": "^8.11.10",
     "dotenv": "^16.4.5",
     "nodemon": "^3.1.7"
   }

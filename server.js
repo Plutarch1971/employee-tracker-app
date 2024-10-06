@@ -16,3 +16,4 @@ app.listen(PORT, async () => {
   await connectToDb();
   console.log(`App listening at http://localhost:${PORT} 🚀`)
 });
+
