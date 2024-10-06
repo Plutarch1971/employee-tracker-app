@@ -1,7 +1,7 @@
 // app.js
 const inquirer = require('inquirer');
-const pool = require('../db/connection');
-const businessRouter = require('../routes/business.router')
+const pool = require('./db/connection');
+const businessRouter = require('./routes/business.router')
 
 async function startApp() {
   const { option } = await inquirer.prompt({
