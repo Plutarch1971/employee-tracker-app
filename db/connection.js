@@ -10,7 +10,7 @@ const pool = new Pool({
   user: process.env.DB_USER,
   password: process.env.DB_PASS,
   host: 'localhost',
-  database: 'postgres',
+  database: 'employee_db',
   port: 5432,
 });
 
@@ -24,7 +24,8 @@ const connectToDb = async () => {
   }
 };
 
-module.exports = {
-    pool,
-    connectToDb
-};
+module.exports = pool;
+// {
+//     pool,
+//     //connectToDb
+// };
