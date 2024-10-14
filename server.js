@@ -12,8 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/api', api);
 
-app.listen(PORT, async () => {
-  await connectToDb();
-  console.log(`App listening at http://localhost:${PORT} 🚀`)
-});
+// app.listen(PORT, async () => {
+//   await connectToDb();
+//   console.log(`App listening at http://localhost:${PORT} 🚀`)
+// });
 

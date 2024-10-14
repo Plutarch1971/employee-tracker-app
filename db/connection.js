@@ -14,15 +14,15 @@ const pool = new Pool({
   port: 5432,
 });
 
-const connectToDb = async () => {
-  try {
-    await pool.connect();
-    console.log('Connected to the database.');
-  } catch (err) {
-    console.error('Error connecting to database:', err);
-    process.exit(1);
-  }
-};
+// const connectToDb = async () => {
+//   try {
+//     await pool.connect();
+//     console.log('Connected to the database.');
+//   } catch (err) {
+//     console.error('Error connecting to database:', err);
+//     process.exit(1);
+//   }
+// };
 
 module.exports = pool;
 // {
